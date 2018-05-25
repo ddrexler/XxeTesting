@@ -2,12 +2,17 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:h="http://xmlns.jcp.org/jsf/html">
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+        xmlns:p="http://primefaces.org/ui">
 <h:body>
 <h:form id="form" enctype="multipart/form-data">
-   <h:inputFile id="file" value="#{uploadController.file}"/>
-   <h:commandButton value="Upload"
-                    action="#{uploadController.upload}"/>
+    <h:commandButton value="XmlTest"
+    action="#{xmlController.doOutput}"/>
+
 </h:form>
+    <h:outputText id="log" value="#{nbtController.log}" styleClass="thattext" />
+    <p:poll id="pollid" interval="2"
+            update="log" widgetVar="poll"
+            async="true" immediate="true" />
 </h:body>
 </html>

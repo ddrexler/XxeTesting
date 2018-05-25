@@ -1,5 +1,3 @@
-package controllers;
-
 import org.w3c.dom.Document;
 import org.xml.sax.InputSource;
 
@@ -65,24 +63,3 @@ public class UploadController implements Serializable {
 
 
 }
-//public class UploadController  {
-//
-//    private UploadedFile uploadedFile;
-//
-//
-//    public UploadedFile getUploadedFile() {
-//        return uploadedFile;
-//    }
-//
-//    public void setUploadedFile(UploadedFile value) {
-//        uploadedFile = value;
-//    }
-//
-//
-//    public void submit()throws IOException {
-//        String fileName = FilenameUtils.getName(uploadedFile.getName());
-//        String contentType = uploadedFile.getContentType();
-//        byte[] bytes = uploadedFile.getBytes();
-//
-//        // Parse xml
-//}
