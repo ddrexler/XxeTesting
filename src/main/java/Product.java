@@ -1,3 +1,5 @@
+import org.jetbrains.annotations.Contract;
+
 import javax.xml.bind.annotation.XmlRootElement;
 import java.io.Serializable;
 import java.util.Set;
@@ -63,6 +65,7 @@ public class Product implements Serializable, Comparable {
         this.price = price;
     }
 
+    @Contract(pure = true)
     private String getDescription() {
         return description;
     }

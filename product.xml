@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<product>
+    <active>true</active>
+    <category>
+        <name>Smartphone</name>
+        <parent>
+            <name>Electro</name>
+        </parent>
+    </category>
+    <imagePath>images/products/IphoneX.jpg</imagePath>
+    <name>Apple Iphone X</name>
+    <price>1199.99</price>
+</product>

